@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  my-hello:
+    image: my-hello
+    ports:
+    - 8080:8080
+    environment:
+      - APPLICAITON_HELLO_STRING=Helllllooooo

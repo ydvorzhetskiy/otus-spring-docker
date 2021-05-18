@@ -12,7 +12,7 @@ public class HelloController {
 
     private final String hello;
 
-    public HelloController(@Value("${application.hello-string") String hello) {
+    public HelloController(@Value("${application.hello-string}") String hello) {
         this.hello = hello;
     }
 
